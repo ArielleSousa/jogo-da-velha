@@ -76,13 +76,13 @@ let winningFunc = () => {
           continue;
       } else if (boxes[b[0]].id == "X" && boxes[b[1]].id == "X" && boxes[b[2]].id == "X") {
 
-          winnerName.innerText = `Player 'X' Ganhou O Jogo!`;
+          WinnerName.innerText = `Player 'X' Ganhou O Jogo!`;
 
           mainPage.style.display = "none";
           winner.style.display = "block";
       } else if (boxes[b[0]].id == "O" && boxes[b[1]].id == "O" && boxes[b[2]].id == "O") {
 
-          winnerName.innerText = `Player 'O' Ganhou O Jogo!`;
+          WinnerName.innerText = `Player 'O' Ganhou O Jogo!`;
 
        
           mainPage.style.display = "none";
